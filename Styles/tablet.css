@@ -19,3 +19,15 @@
 .main-tables-container::-webkit-scrollbar {
     display: none;
 }
+.img-main-section{
+    display: flex;
+    height: 316px;
+    margin-bottom: 30px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
