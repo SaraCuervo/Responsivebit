@@ -1,0 +1,378 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #ffffff 15.69%, #dd9dfa 100%);
+}
+header img{
+    width: 230px;
+    height: 110px;
+    margin-top: 50px;
+    align-self: center;
+}
+.header-div--title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 15px;
+    align-self: center;
+}
+.header-div--title h1{
+   font-size: 2rem;
+   font-weight: bold;
+   line-height: 2.6rem;
+   color: rgb(0, 0, 0);
+}
+.header-div--title p{
+    margin-top: 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+.button-header{
+    position: absolute;
+    left: calc(50% - 115px);
+    top: 280px;
+    display: block;
+    margin-top: 25px;
+    padding: 15px;
+    width: 230px;
+    height: 48px;
+    background-color: rgb(77, 9, 77);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+main{
+    width: 100%;
+    height: auto;
+    background-color: rgb(207, 128, 253);
+}
+.main-section{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.main-text{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+}
+.main-text h2{
+    margin-bottom: 15px;
+    font-size: 2.1rem;
+    color: white;
+}
+.main-text p{
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: whitesmoke;
+}
+.img-main-section{
+    display: flex;
+    height: 316px;
+    margin-bottom: 30px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.img-main-section .img-1, .img-2, .img-3, .img-4, .img-5{
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.img-main-section .img-1{
+    margin-left: 30px;
+}
+.main-clothes-table{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.clothes-table--title{
+    margin-bottom: 12px;
+    font-size: 2.6em;
+    color: white;
+    text-align: center;
+}
+.clothes-table--descrip{
+    margin-bottom: 15px;
+    font-size: 1.6em;
+    color: whitesmoke;
+    text-align: center;
+}
+.clothes-table--container{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 200px;
+    margin: 0 auto;
+}
+.clothes-table--container table{
+    width: 100%;
+    height: 100%;
+}
+.clothes-table--container td{
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+.top-left{
+    border-radius: 15px 0 0 0;
+}
+.top-right{
+    border-radius: 0 15px 0 0;
+}
+.bottom-right{
+    border-radius: 0 0 15px 0;
+}
+.bottom-left{
+    border-radius: 0 0 0 15px;
+}
+.main-benefits--container{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: rgb(78, 12, 75);
+}
+.main-benefit--text{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.main-benefit--text h2{
+    margin: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: white;
+}
+.main-benefit--text p{
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+    color: rgb(228, 228, 228);
+}
+.main-benefit{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    margin: 20px auto;
+    padding: 13px;
+    background-color: rgb(110, 37, 103);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(163, 31, 112, 0.16);
+}
+.main-benefit--title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: white;
+}
+.main-benefit--descrip{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: whitesmoke;
+}
+
+.product-clothes--slider{
+    width: 100%;
+    height: auto;
+    min-width: 320;
+    padding-bottom: 45px;
+    text-align: center;
+}
+.product-clothes--text{
+    width: 90%;
+    min-width: 288;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.product-clothes--text h3{
+    padding-top: 30px;
+    margin: 10px;
+    margin-bottom: 15px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: rgb(0, 0, 0);
+}
+.product-clothes--text p{
+    padding-top: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: rgb(255, 255, 255);
+}
+.product-clothes--camisetas{
+    position: relative;
+    width: 55%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 270px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background: linear-gradient(207.8deg, #9f36a8 15.69%, #3a0035 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 0, 200, 0.16);
+}
+.recomendado{
+    position: absolute;
+    width: 115px;
+    height: 32px;
+    padding: 6px;
+    left: calc(50% - 60px);
+    top: -13px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(84, 0, 87);
+}
+.promo{
+    position: absolute;
+    width: 115px;
+    height: 32px;
+    padding: 6px;
+    left: calc(50% - 60px);
+    top: -13px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(1, 0, 2);
+}
+.product-info--container h3{
+    padding-top: 25px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: white;
+}
+.product-info--container p{
+    width: 50px;
+    position: absolute;
+    margin-top: 140px;
+    left: calc(50% - 25px);
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(179, 133, 189);
+}
+.product-info--container p span{
+    justify-content: center;
+    margin-top: 18px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.product-info--container button{
+    position: relative;
+    top: 175px;
+    width: 150px;
+    height: 40px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(128, 57, 131);
+}
+.img-camiseta{
+    display: flex;
+    position: absolute;
+    top: 55px;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 140px;
+    text-align: center;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./6.jpg');
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(104, 0, 114);
+}
+footer section{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 200px;
+    height: 90px;
+    margin-right: 20px;
+}
+.desordenada{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+    text-decoration: none;
+}
+.desordenada li{
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+.desordenada li a{
+    margin: 10px 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    list-style: none;
+}
+.redes{
+    text-decoration: none;
+}

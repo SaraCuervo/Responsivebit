@@ -1,0 +1,19 @@
+.img-main-section{
+    justify-content: center;
+}
+.img-main-section::-webkit-scrollbar {
+    display: none;
+}
+.main-benefit--cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+    
+}
