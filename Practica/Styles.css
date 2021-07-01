@@ -335,7 +335,7 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('./6.jpg');
+    background-image: url('./IMGS/6.jpg');
 }
 footer{
     display: flex;
