@@ -216,7 +216,10 @@ main{
     line-height: 1.8rem;
     color: whitesmoke;
 }
-
+/* .product-clothes {
+    margin-left: 20%;
+}
+ */
 .product-clothes--slider{
     width: 100%;
     height: auto;
@@ -254,7 +257,7 @@ main{
     min-width: 190px;
     max-width: 300px;
     height: 270px;
-    margin: 0 auto;
+    margin: 30px auto;
     margin-bottom: 50px;
     background: linear-gradient(207.8deg, #9f36a8 15.69%, #3a0035 100%);
     border-radius: 10px;
